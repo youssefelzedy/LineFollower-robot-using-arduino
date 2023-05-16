@@ -1,13 +1,13 @@
 #include <SoftwareSerial.h>
-const int L_S = A5;  // sensor output for left sensor
-const int R_S = A4;  // sensor output for right sensor
+const int L_S = 6;  // sensor output for left sensor
+const int R_S = 7;  // sensor output for right sensor
 // Motor driver pins
 const int ENB = 5; // motor 2 
-const int IN4 = 6; // motor 2 left
-const int IN3 = 7; // motor 2 left
-const int IN2 = 3; // motor 1  right
-const int IN1 = 9; // motor 1  right
-const int ENA = 10; // motor 1 
+const int IN4 = 11; // motor 2 left
+const int IN3 = 10; // motor 2 left
+const int IN2 = 9; // motor 1  right
+const int IN1 = 8; // motor 1  right
+const int ENA = 3; // motor 1 
 
 void setup() {
   pinMode(L_S, INPUT);
